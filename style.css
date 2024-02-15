@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgb(159, 183, 193); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgba(172, 255, 47, 0.108);
+    text-align: center;
+    border-radius: 10px;
+}
+
+header > h1 {
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-size: 5vw;
+}
+
+header > p {
+    padding-bottom: 30px;
+}
+
+header a, footer a {
+    color: rgb(34, 34, 33);
+}
+h3 {
+ color: white
+}
+section {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    line-height: 2em;
+    padding-left: 30px;
+   
+}
+section.imagem1 {
+    background-image: url(imagens/california.png.png);
+    background-size: cover;
+    background-position: center top;
+    padding-bottom: -100px;
+    background-attachment: fixed;
+}
+
+
+
+section.imagem1 > p {
+    background-color: rgba(255, 255, 255, 0.753);
+    width: auto;
+    height: auto;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 15px;
+    
+    
+}
+
+section.imagem2 {
+    background-image: url(imagens/noruega.png.png);
+    background-size: cover;
+    background-position:  right center;
+    background-attachment: fixed;
+}
+section.imagem2 > p {
+    background-color: rgba(255, 255, 255, 0.818);
+    width: auto;
+    height: auto;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 15px;
+}
+section.imagem3 {
+    background-image: url(imagens/australia.png.png);
+    background-size: cover;
+    background-position: center bottom;
+    background-attachment: fixed;
+    
+}
+section.imagem3 > p {
+    background-color: rgba(255, 255, 255, 0.775);
+    width: auto;
+    height: auto;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 15px;
+}
+footer {
+    background-color:rgba(172, 255, 47, 0.108); 
+    text-align: center;
+    padding: 10px ;
+}
